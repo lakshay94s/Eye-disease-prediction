@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the pre-trained model from the .h5 file
-model = tf.keras.models.load_model("C:/Users/laksh/Downloads/eye_disease_model.keras.h5")
+model = tf.keras.models.load_model("eye_disease_model.keras.h5")
 
 
 # Class names for the disease prediction
