@@ -21,4 +21,7 @@ To run the application locally, follow these steps:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name  
 
-
+## Install Dependencies
+If requirements.txt is not available, install packages manually:
+```bash
+pip install streamlit tensorflow pillow numpy
